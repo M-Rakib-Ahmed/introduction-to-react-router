@@ -3,7 +3,7 @@
 const User = ({user}) => {
     console.log(user);
     
-    const {id, name, username, email, address, phone} =user;
+    const {id, name, username, email,  phone} =user;
     const userStyle ={
         border: '2px solid, gray',
         padding: '10px',
